@@ -1,0 +1,149 @@
+
+body{
+    
+   
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+    
+}
+.hero{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat:no-repeat;
+    text-align: center;
+}
+.button1{
+        width:150px;
+        height: 35px;
+        padding: 10px;
+        border-radius: 20px;
+        border:none;
+        font-family: 'The Nautigal', cursive;
+        background-color:beige;
+        margin-top:20px;
+}
+.button1:hover{
+    background-color: #5DCCBB;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button2{
+    width:150px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+    font-family: 'The Nautigal', cursive;
+   background-color:bisque;
+   margin-top:20px;
+}
+.button2:hover{
+    background-color:#7685fb;
+    font-weight: bold;
+    cursor: pointer;
+}
+.wrapper{
+margin-top: 100px;
+        display: flex;
+}
+.wrapper img{
+    width:100%;
+    height:500px ;
+}
+.navigation{
+    list-style: none;
+    margin-left: 200px;
+}
+.wrapper-footer{
+    text-align: center;
+    margin-top:50px;
+}
+.wrapper2{
+    text-align:center;
+    margin-top: 100px;
+}
+.wrapper-image3{
+    width:100%;
+    height:500px 
+}
+.text-wrapper3{
+    margin-top: 70px;
+}
+.navigation2 nav{
+    display: flex;
+    margin-top: 70px;
+    
+}
+.navigation2 nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.navigation2 nav :first-line{
+
+    margin-bottom:20px;
+}
+.icons nav{
+    display: flex;
+    list-style: none;
+    margin-top:150px;
+    margin-left: 50px;
+}
+.icons nav li{
+
+    margin-left:70px;
+
+}
+.down{
+    text-align:center;
+    margin-top:70px;
+}
+.footer{
+    background-color:rgba(147, 184, 185, 0.603);
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    margin-right:30px;
+    margin-top:70px;
+    height: 200px;
+    border-radius:20px;
+}
+.footer-icons {
+    display: flex;
+    position:relative;
+}
+.footer-wrapper{
+    display: flex;
+    margin-left: 40px;
+    margin-top:40px;
+   
+   
+}
+.footer-wrapper li{
+    font-family:Arial, Helvetica, sans-serif;
+   
+    margin-left: 50px;
+}
+.footer-li,.footer-li2,.footer-li3 {
+margin-top:50px;
+
+}
+.footer-icons li img{
+    margin-top:65px;
+    position: absolute;
+    margin-left:300px;
+}
+#contact:hover{
+        color:blue;
+        cursor: pointer;
+}
+p{
+    color:rgba(147, 184, 185, 0.863);
+}
+.footer-li,.footer-li2,.footer-li3 nav{
+    margin-bottom: 10px;
+    color:rgb(98, 98, 98);
+}
+.header img{
+    margin-top:50px;
+}
